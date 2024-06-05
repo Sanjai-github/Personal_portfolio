@@ -1,10 +1,17 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import Java from "../assets/img/skills/java.svg";
+import React from "../assets/img/skills/react.svg";
+import Html from "../assets/img/skills/html.svg";
+import CSS from "../assets/img/skills/css.svg";
+import Tailwind from "../assets/img/skills/tailwind.svg";
+import JavaScript from "../assets/img/skills/javascript.svg";
+import SQL from "../assets/img/skills/sql.svg";
+import MongoDB from "../assets/img/skills/mongodb.svg";
+import GraphQL from "../assets/img/skills/graphql.svg";
+import Spring from "../assets/img/skills/spring.svg";
+import Express from "../assets/img/skills/express.svg";
+import Node from "../assets/img/skills/node.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-// import arrow1 from "../assets/img/arrow1.svg";
-// import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -35,23 +42,55 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>I enjoy writing clear, clean and efficient code with the machine languages.<br></br> I have gained knowledge and developed some skills in certain technologies. <br/>  </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="skill" />
-                                <h5>Web Development</h5>
+                                <img src={Html} alt="Skill-html" />
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="skill" />
-                                <h5>Brand Identity</h5>
+                                <img src={CSS} alt="skill-css" />
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Skill" />
-                                <h5>Logo Design</h5>
+                                <img src={JavaScript} alt="skill-javascript" />
+                                <h5>JAVA SCRIPT</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="skill" />
-                                <h5>Web Development</h5>
+                                <img src={React} alt="skill-react" />
+                                <h5>REACT JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Tailwind} alt="skill-tailwind" />
+                                <h5>TAILWIND CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Java} alt="skill-Java" />
+                                <h5>JAVA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Spring} alt="skill-spring" />
+                                <h5>SPRING</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Express} alt="skill-express" />
+                                <h5>EXPRESS JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Node} alt="skill-node" />
+                                <h5>NODE JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={SQL} alt="Skill-sql" />
+                                <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={MongoDB} alt="skill-mongoDB" />
+                                <h5>MONGO DB</h5>
+                            </div>
+                            <div className="item">
+                                <img src={GraphQL} alt="skill-graphql" />
+                                <h5>GRAPHQL </h5>
                             </div>
                         </Carousel>
                     </div>
