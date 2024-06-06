@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import weatherApp from "../assets/img/project/weather_app.jpg";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import Portfolio from "../assets/img/project/portfolio.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,19 +11,25 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Weather Forecast App",
+      description: "React | Tailwind CSS | Rapid API | Netlify",
+      imgUrl: weatherApp,
+      link1: <a className="certi-link" href="https://sanjai-weather.netlify.app/">[LIVE]</a>,
+      link2: <a className="certi-link" href="https://github.com/Sanjai-github/My_React_Weather_App">[CODE]</a>,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      link1: <a className="certi-link" href="https://sanjai-weather.netlify.app/">[LIVE]</a>,
+      link2: <a className="certi-link" href="https://github.com/Sanjai-github/My_React_Weather_App">[CODE]</a>,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Personal Portfolio",
+      description: "React | Bootstrap | NodeMailer | Netlify",
+      imgUrl: Portfolio,
+      link1: <a className="certi-link" href="https://portfolio-sanjai.netlify.app/">[LIVE]</a>,
+      link2: <a className="certi-link" href="https://github.com/Sanjai-github/Personal_portfolio">[CODE]</a>,
     },    
   ];
 
@@ -64,7 +70,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">

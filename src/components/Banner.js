@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   // const [Index, setIndex] = useState(1);
   // eslint-disable-next-line
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Web Developer 🧑‍💻", "Navigator🗺️","Stock Enthusiast💹" ,"Editor📽️📸 "];
   const period = 2000;
 
   const tick = useCallback(() => {
@@ -53,8 +53,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Sanjai`} <div className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></div></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Hi! I'm Sanjai`} <div className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer 🧑‍💻", "Navigator🗺️","Stock Enthusiast💹" ,"Editor📽️📸 " ]'><span className="wrap">{text}</span></div></h1>
+                  <p>I'm an enthusiastic fresher, seekinkg for the developer position in the firm where i can apply my knowledge and skills in the development of the business and my own career. I have gained knowledge on DSA(Data Structures and Algorithm) and OOPS(Object-Oriented Programing). I have implemented my skills and learnings by doing projects which are attached below.   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
