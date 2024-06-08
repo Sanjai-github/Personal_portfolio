@@ -34,7 +34,7 @@ export const Certification = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Certifications</h2>
-                        <p>I have done some certification on various technologies, through online and offline.<br></br> Some of my certifications are <br/>  </p>
+                        <p>I have earned several prestigious certifications in various cutting-edge technologies, both online and offline. Some of my notable certifications include:<br/>  </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={coursera} alt="certi-coursera" />

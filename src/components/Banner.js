@@ -54,8 +54,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sanjai`} <div className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer 🧑‍💻", "Navigator🗺️","Stock Enthusiast💹" ,"Editor📽️📸 " ]'><span className="wrap">{text}</span></div></h1>
-                  <p>I'm an enthusiastic fresher, seekinkg for the developer position in the firm where i can apply my knowledge and skills in the development of the business and my own career. I have gained knowledge on DSA(Data Structures and Algorithm) and OOPS(Object-Oriented Programing). I have implemented my skills and learnings by doing projects which are attached below.   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>As an enthusiastic fresher, I am eager to secure a developer position in a forward-thinking firm where I can leverage my knowledge and skills to drive business development and advance my career. With a strong foundation in Data Structures and Algorithms (DSA) and Object-Oriented Programming (OOPS), I have actively applied my expertise through a range of impactful projects, which are showcased below. My dedication to continuous learning and my passion for innovation make me an ideal candidate for your team. </p>
+                  <button >Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
